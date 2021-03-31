@@ -17,6 +17,7 @@
 .vs/
 
 .gradle/
+.idea/
 
 ExportedObj/
 .consulo/
