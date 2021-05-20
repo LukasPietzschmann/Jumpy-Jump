@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	[SerializeField] private float jumpForce = 400f;
+	[SerializeField] private float jumpForce = 700f;
 	[Range(0, .3f)] [SerializeField] private float movementSmoothing = .05f;
 	[SerializeField] private bool airControl = true;
 	[SerializeField] private bool doubleJump = true;
