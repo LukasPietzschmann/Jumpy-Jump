@@ -410,6 +410,7 @@ GameObject:
   - component: {fileID: 1114416941}
   - component: {fileID: 1114416942}
   - component: {fileID: 1114416943}
+  - component: {fileID: 1114416944}
   m_Layer: 0
   m_Name: Cubemaster
   m_TagString: Untagged
@@ -505,8 +506,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32fdc4a4838ad4dfda25c4ec415d4dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 400
-  movementSmoothing: 0.05
+  jumpForce: 440.71
+  movementSmoothing: 0.137
   airControl: 1
   doubleJump: 1
 --- !u!54 &1114416942
@@ -539,3 +540,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1114416941}
   runSpeed: 40
+  animator: {fileID: 1114416944}
+--- !u!95 &1114416944
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114416936}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec67496cb3a264a3c8af630b0cee7a50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
