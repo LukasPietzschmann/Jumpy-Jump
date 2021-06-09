@@ -1,18 +1,19 @@
-using TMPro;
+using System;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using Scene = UnityEngine.SceneManagement.Scene;
 
 public class LevelList : MonoBehaviour {
-    [SerializeField] private GameObject sceneList;
+    [SerializeField] private GameObject itemPrefab;
     void Start() {
         for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++) {
-            Scene scene = SceneManager.GetSceneByBuildIndex(i);
-            GameObject text = new GameObject();
-            text.transform.position = Vector3.zero;
-            text.AddComponent<TextMeshPro>().text = scene.name ?? "undef";
-            text.transform.SetParent(sceneList.transform, false);
+            String name = Path.GetFileNameWithoutExtension(SceneUtility.GetScenePathByBuildIndex(i));
+            GameObject container = Instantiate(itemPrefab, transform, false);
+            container.name = name;
+            container.GetComponentInChildren<Text>().text = name;
+            var i1 = i;
+            container.GetComponentInChildren<Button>().onClick.AddListener(() => SceneManager.LoadScene(i1));
         }
     }
 }

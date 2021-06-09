@@ -27,8 +27,10 @@ public class PlayerMovement : MonoBehaviour
 		}
 
 		float newDash = dash - dash * .05f;
-		if (newDash >= 1f)
+		if (newDash >= 1f) {
 			dash = newDash;
+			horizontalMove = runSpeed;
+		}
 	}
 
 	private void FixedUpdate() {
