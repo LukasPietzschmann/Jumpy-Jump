@@ -26,6 +26,10 @@ public class PlayerController : MonoBehaviour
 	}
 
 	public void Move(float move, float dash, bool jump) {
+		if(move > 0)
+			gameObject.transform.eulerAngles = new Vector3(0, 180, 0);
+		else if(move < 0)
+			gameObject.transform.eulerAngles = Vector3.zero;
 		if(isGrounded || airControl) {
 			rigidbody.constraints = dash <= 0.01 ? RigidbodyConstraints.FreezePositionY | rigidbody.constraints : RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionZ;
 			Vector3 rigidbodyVel = rigidbody.velocity;

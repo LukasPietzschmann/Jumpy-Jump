@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b842c05-c9f6-4471-8e34-147df52c4b3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Low Poly Water/Plane Meshes/Water10x21W100H210.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Low Poly Water/Plane Meshes/Water10x21W100H210.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Map1Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Map1Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cam/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cam/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleLowPolyNature/Lowpoly Demo Post-processing Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleLowPolyNature/Lowpoly Demo Post-processing Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleNaturePack/SimpleNaturePack_HDRP_2018.3.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleNaturePack/SimpleNaturePack_LWRP_2018.3.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleNaturePack/SimpleNaturePack_URP_2019.3.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Enemy.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1tWttmtTsZWf3StqUWl6LyN6v7l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b842c05-c9f6-4471-8e34-147df52c4b3c" name="Default Changelist" comment="" />
+      <created>1622896894212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622896894212</updated>
+      <workItem from="1622896901844" duration="375000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
