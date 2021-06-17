@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 	}
 
 	private void Update() {
-		if (Input.GetKeyDown(respawnKey))
+		if (Input.GetKeyDown(respawnKey) && lastCheckpoint != null)
 			transform.position = lastCheckpoint.position;
 	}
 
