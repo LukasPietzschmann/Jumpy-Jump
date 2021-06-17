@@ -21,8 +21,10 @@ public class PlayerController : MonoBehaviour
 	}
 
 	private void Update() {
-		if (Input.GetKeyDown(respawnKey) && lastCheckpoint != null)
-			transform.position = lastCheckpoint.position;
+		if (Input.GetKeyDown(respawnKey) && lastCheckpoint != null) {
+			Vector3 lastPosition = lastCheckpoint.position;
+			transform.position = new Vector3(lastPosition.x, lastPosition.y, transform.position.z);
+		}
 	}
 
 	public void Move(float move, float dash, bool jump) {
@@ -48,6 +50,8 @@ public class PlayerController : MonoBehaviour
 		isGrounded = true;
 		if (other.gameObject.CompareTag("Enemy")) {
 			Debug.Log("Dead");
+			Vector3 lastPosition = lastCheckpoint.position;
+			transform.position = new Vector3(lastPosition.x, lastPosition.y, transform.position.z);
 		}
 	}
 
