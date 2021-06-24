@@ -12,9 +12,12 @@ public class PlayerMovement : MonoBehaviour
 	private float dash = 1f;
 	private float nextDash = 0f;
 	private bool jump = false;
+	private int lastDirection = 1;
 
 	void Update() {
 		horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+		if (horizontalMove != 0)
+			lastDirection = horizontalMove < 0 ? -1 : 1;
 		if (Input.GetButtonDown("Jump"))
 			jump = true;
 		if (nextDash <= Time.time && (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))) {
@@ -29,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 		float newDash = dash - dash * .05f;
 		if (newDash >= 1f) {
 			dash = newDash;
-			horizontalMove = runSpeed;
+			horizontalMove = runSpeed * lastDirection;
 		}
 	}
 
