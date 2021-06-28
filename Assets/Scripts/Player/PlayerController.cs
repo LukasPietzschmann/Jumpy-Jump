@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 	[SerializeField] private float jumpForce = 700f;
+	[SerializeField] private float doubleJumpForce = 700f;
 	[SerializeField] private float speed = 10f;
 	[Range(0, .3f)] [SerializeField] private float movementSmoothing = .05f;
 	[SerializeField] private bool airControl = true;
@@ -41,7 +42,8 @@ public class PlayerController : MonoBehaviour
 		if(jump && ((doubleJump && jumpCount < 2) || isGrounded)) {
 			jumpCount++;
 			isGrounded = false;
-			rigidbody.AddForce(new Vector3(0f, jumpForce, 0f));
+			if(jumpCount == 1) rigidbody.AddForce(new Vector3(0f, jumpForce, 0f));
+			else if(jumpCount == 2) rigidbody.AddForce(new Vector3(0f, doubleJumpForce, 0f));
 		}
 	}
 
