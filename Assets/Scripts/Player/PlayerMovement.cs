@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 		if (Input.GetButtonDown("Jump"))
 			jump = true;
 		if (nextDash <= Time.time && (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))) {
-			dash = 4f;
+			dash = 3f;
 			nextDash = Time.time + dashCooldownInSec;
 		}
 		if (enableAnim) {

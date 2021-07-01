@@ -44,9 +44,14 @@ public class Enemy : MonoBehaviour {
 			if (Time.time < nextCharge)
 				return;
 			nextCharge += 2;
-			rigidbody.AddForce(new Vector3(Random.Range(-800, 800) + myPos.x - targetPos.x,0,0), ForceMode.Acceleration);
+			float direction = Random.Range(-600, 600) + myPos.x - targetPos.x;
+			if (direction > 0) gameObject.transform.eulerAngles = new Vector3(0, 270, 0);
+			else if (direction < 0) gameObject.transform.eulerAngles = new Vector3(0, 90, 0);
+			rigidbody.AddForce(new Vector3(direction,0,0), ForceMode.Acceleration);
 		}else if (state == State.Found) {
 			float motivation = Vector3.Distance(myPos, targetPos).Map(1, 6, maxMotivation, 1);
+			if (motivation > 0) gameObject.transform.eulerAngles = new Vector3(0, 270, 0);
+			else if (motivation < 0) gameObject.transform.eulerAngles = new Vector3(0, 90, 0);
 			transform.position = Vector3.MoveTowards(myPos, targetPos, speed * Time.deltaTime * motivation);
 		}else if (state == State.Attack) {
 			if(grounded) {
