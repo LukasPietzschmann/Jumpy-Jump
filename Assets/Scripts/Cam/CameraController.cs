@@ -12,4 +12,6 @@ public class CameraController : MonoBehaviour
         Vector3 target = Vector3.MoveTowards(myPos, new Vector3(playerPos.x, playerPos.y + 10, playerPos.z), 40 * Time.deltaTime);
         transform.position = new Vector3(target.x, target.y, myPos.z);
     }
+
+
 }
