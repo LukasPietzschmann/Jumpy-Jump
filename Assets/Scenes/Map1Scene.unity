@@ -1878,7 +1878,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 164637071}
-  - component: {fileID: 164637072}
   - component: {fileID: 164637074}
   - component: {fileID: 164637073}
   m_Layer: 0
@@ -1902,18 +1901,6 @@ Transform:
   m_Father: {fileID: 1568919970}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &164637072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164637070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c52dfa76e5030b444a98bf5b65c9af7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &164637073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2405,7 +2392,7 @@ RectTransform:
   - {fileID: 1942303814}
   - {fileID: 1702383493}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4090,7 +4077,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &389477113
 PrefabInstance:
@@ -11226,7 +11213,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1106815851 stripped
 Transform:
@@ -14655,7 +14642,7 @@ Transform:
   - {fileID: 693105237}
   - {fileID: 1047103380}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1431230074 stripped
 Transform:
@@ -16207,7 +16194,7 @@ Transform:
   - {fileID: 1905063878}
   - {fileID: 164637071}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1568919971
 MonoBehaviour:
@@ -17474,7 +17461,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1702383493}
-  - component: {fileID: 1702383492}
   - component: {fileID: 1702383491}
   m_Layer: 5
   m_Name: Story Panel
@@ -17502,20 +17488,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1702383492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702383490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e101bf27a0b4c84a8eef3ac013abacc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  storytext: {fileID: 1531352059}
-  animator: {fileID: 0}
 --- !u!224 &1702383493
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19822,7 +19794,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1905063878}
-  - component: {fileID: 1905063879}
   - component: {fileID: 1905063881}
   - component: {fileID: 1905063880}
   m_Layer: 0
@@ -19846,18 +19817,6 @@ Transform:
   m_Father: {fileID: 1568919970}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1905063879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905063877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 660793647e88baa47bd701dca3c22624, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1905063880
 MonoBehaviour:
   m_ObjectHideFlags: 0
