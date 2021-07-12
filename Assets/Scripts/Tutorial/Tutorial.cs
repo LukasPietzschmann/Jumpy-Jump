@@ -19,7 +19,7 @@ public class Tutorial : MonoBehaviour {
 
 	public void unShow() {
 		animator.SetBool(Show, false);
-		tutorialtext.GetComponent<RectTransform>().localScale = Vector3.zero;
+		//tutorialtext.GetComponent<RectTransform>().localScale = Vector3.zero;
 	}
 
 	public void showMessage(string msg) {
