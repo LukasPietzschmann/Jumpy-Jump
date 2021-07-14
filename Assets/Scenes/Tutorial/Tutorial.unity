@@ -23165,9 +23165,37 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 386659747}
+    - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 386659747}
+    - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: unPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973312370179379345, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4973312370666495319, guid: b8bc1f5ead37a421ba9351c77eb892dc, type: 3}
       propertyPath: m_IsOn
       value: 0

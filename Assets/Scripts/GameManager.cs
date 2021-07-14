@@ -37,11 +37,11 @@ public class GameManager : MonoBehaviour {
       Time.timeScale = 1;
    }
 
-   public void loadMainMenu() {
+   public static void loadMainMenu() {
       loadScene(0);
    }
 
-   public void loadScene(int index) {
+   public static void loadScene(int index) {
       SceneManager.LoadScene(index);
    }
 
