@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 		if (Input.GetKeyDown(respawnKey) && lastCheckpoint != null) {
 			Vector3 lastPosition = lastCheckpoint.position;
 			transform.position = new Vector3(lastPosition.x, lastPosition.y, transform.position.z);
+			GameManager.respawnEnemies();
 		}
 	}
 
@@ -55,6 +56,7 @@ public class PlayerController : MonoBehaviour
 			Debug.Log("Dead");
 			Vector3 lastPosition = lastCheckpoint.position;
 			transform.position = new Vector3(lastPosition.x, lastPosition.y, transform.position.z);
+			GameManager.respawnEnemies();
 		}
 	}
 

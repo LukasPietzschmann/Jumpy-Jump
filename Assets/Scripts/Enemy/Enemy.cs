@@ -6,6 +6,7 @@ using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour {
+
 	enum State {
 		Searching, Found, Attack
 	}
