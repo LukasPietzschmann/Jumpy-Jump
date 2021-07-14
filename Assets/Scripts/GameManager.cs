@@ -9,8 +9,25 @@ public class GameManager : MonoBehaviour {
 
    [SerializeField] private AudioMixer audioMixerVolume;
    [SerializeField] private Slider volSlider;
+   [SerializeField] private GameObject pauseMenu;
 
    private float oldVol;
+   private bool paused = false;
+
+   private void Update() {
+      if (Input.GetKeyDown(KeyCode.Escape)) {
+         if (paused) {
+            pauseMenu.SetActive(false);
+            unPause();
+         }
+         else {
+            pauseMenu.SetActive(true);
+            pause();
+         }
+
+         paused = !paused;
+      }
+   }
 
    public static void pause() {
       Time.timeScale = 0;
@@ -20,11 +37,11 @@ public class GameManager : MonoBehaviour {
       Time.timeScale = 1;
    }
 
-   public static void loadMainMenu() {
+   public void loadMainMenu() {
       loadScene(0);
    }
 
-   public static void loadScene(int index) {
+   public void loadScene(int index) {
       SceneManager.LoadScene(index);
    }
 
