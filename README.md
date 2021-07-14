@@ -1,4 +1,4 @@
-# Jump-n-Run
+# Jumpy Jump
 
 A simple Jump and Run by:
 * **Lukas Pietzschmann** ([@LukasPietzschmann](https://github.com/LukasPietzschmann))
