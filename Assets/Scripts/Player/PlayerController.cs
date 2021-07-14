@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
 
 	private void Awake() {
 		rigidbody = GetComponent<Rigidbody>();
+		lastCheckpoint = transform;
 	}
 
 	private void Update() {
