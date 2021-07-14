@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
 			gameObject.transform.eulerAngles = Vector3.zero;
 		if(isGrounded || airControl) {
 			rigidbody.constraints = dash <= 0.01 ? RigidbodyConstraints.FreezePositionY | rigidbody.constraints : RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionZ;
-			Vector3 rigidbodyVel = rigidbody.velocity;
+			Vector3 rigidbodyVel = rigidbody.velocity; //hier velocity anpassen
 			Vector3 targetVelocity = new Vector3(move * speed * dash, rigidbodyVel.y, 0);
 			rigidbody.velocity = Vector3.SmoothDamp(rigidbodyVel, targetVelocity, ref velocity, movementSmoothing);
 		}
